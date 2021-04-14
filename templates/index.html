@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extract Titles from Textual Info!</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="username" style="text-align : center">Place the textual information here:</label>
+            <textarea name="text" placeholder="Enter the text" style="margin: 0px; height: 194px; width: 1025px;"></textarea>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+</body>
+</html>
